@@ -78,7 +78,7 @@ if (!isset($_SESSION['admin_name'])) {
                      <a class="nav-link" href="#">Contact</a>
                   </li>
                   <li class="nav-item">
-                  <a href="logout.php" class="btn"> <i class="fa-regular fa-user"></i> </a>
+                     <a href="logout.php" class="btn"> <i class="fa-regular fa-user"></i> </a>
                   </li>
 
                </ul>
@@ -97,11 +97,8 @@ if (!isset($_SESSION['admin_name'])) {
          <div class="row align-items-center">
             <div class="col-md-6">
                <div class="banner-text">
-                  <h1>First I wanted to be
-                     a veterinarian</h1>
-                  <p>Lorem Ipsum available but the majority have
-                     suffered alteration in some form, by injected
-                     humour randomised words.</p>
+                  <h1>Pet Daycare And Veterinary Service</h1>
+                  <p> Best online safe & reliable Pet Care Service</p>
 
                   <div class="btn-main">
                      <a href="" class="btn btn-blue">Contact Us</a>
@@ -128,12 +125,20 @@ if (!isset($_SESSION['admin_name'])) {
          <div class="row align-items-center">
             <div class="col-md-6">
                <div class="text-col">
-                  <h2>As a veterinarian and
-                     lover of animals.</h2>
-                  <p>Lorem Ipsum available but the majoty
-                     suffered alteration in some form, by
-                     humour randomised words.</p>
-                  <a href="" class="btn btn-primary">Our Service</a>
+                  <h2> Medical care for Dogs & Cats</h2>
+                  <p>We receive almost all kind of medical request service for all kinds of Cats & Dogs. Sometime we
+                     also provide medical service to other kinds of animals depending on the situation.</p>
+
+
+                  <!--========================
+  
+                                   button ta remove kore dis nicher ta
+                                                                                        ============-->
+
+                  <!-- <a href="" class="btn btn-primary">Our Service</a> -->
+
+
+
                </div>
             </div>
 
@@ -156,18 +161,19 @@ if (!isset($_SESSION['admin_name'])) {
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <h2 class="section-title">Services</h2>
-               <p class="mb-4"> We provide this kinds of services with expert care.</p>
+               <h2 class="section-title">Veterinary Services</h2>
+               <p class="mb-4"> We provide our veterinary services with expert medical care.</p>
             </div>
 
 
             <div class="col-lg-4">
                <div class="services-box">
                   <div class="services-img">
-                     <img class="" src="images/services.jpg" alt="">
+                     <img class="" src="images/services3.jpg" alt="">
                   </div>
                   <h3>Veterinarian</h3>
-                  <p> sss</p>
+                  <p>Your beloved pet is suffering from any kind of diseases or illness? contact with a professional
+                     Vet.</p>
                   <button class="service-btn"> Book Service </button>
                </div>
             </div>
@@ -189,10 +195,11 @@ if (!isset($_SESSION['admin_name'])) {
             <div class="col-lg-4">
                <div class="services-box">
                   <div class="services-img">
-                     <img src="images/services3.jpg" alt="">
+                     <img src="images/services.jpg" alt="">
                   </div>
-                  <h3>Dental Care</h3>
-                  <p> If your pets are facing any kind of tooth or mouth related problem, this service is for you.</p>
+                  <h3>Neuter Service</h3>
+                  <p> By Neutering you can make your pet a lot less aggressive. It protects them against certain illness
+                     and increase their lifespan.</p>
                   <button class="service-btn"> Book Service </button>
                </div>
             </div>
@@ -220,12 +227,19 @@ if (!isset($_SESSION['admin_name'])) {
 
             <div class="col-md-6">
                <div class="text-col">
-                  <h2>As a veterinarian and
-                     lover of animals</h2>
-                  <p>Lorem Ipsum available but the majoty
-                     suffered alteration in some form, by
-                     humour randomised words</p>
-                  <a href="" class="btn btn-primary">Our Service</a>
+                  <h2> The Perfect Pet Hotel</h2>
+                  <p>We know just how important your pet is to you, which is why our highly experienced pet handlers do
+                     everything they can to keep your pets safe and happy while they stay with us.
+
+                     With no cage boarding and very competitive rates, you'll feel comfortable turning to our Daycare at any time you need to find a place for you loved one to stay. We've even been featured on Yelp.com™ due to the excellent reviews regarding our service!</p>
+
+                     <!-- 
+                        button remove kori dis eita mone koire madari
+
+                      -->
+
+                  <!-- <a href="" class="btn btn-primary">Our Service</a> -->
+
                </div>
             </div>
 
@@ -245,7 +259,7 @@ if (!isset($_SESSION['admin_name'])) {
             <div class="col-md-12">
                <div class="intro-main">
                   <h2 class="section-title">Adoption </h2>
-                  <p> If you are looking to adopt any kinds of pets. Feel free to check here.</p>
+                  <p> If you are looking to adopt pets. Feel free to check here.</p>
 
                </div>
             </div>
@@ -313,7 +327,7 @@ if (!isset($_SESSION['admin_name'])) {
 
             <div class="col-md-12">
                <div class="intro-main">
-                  <h2 class="section-title">The Vet Care team</h2>
+                  <h2 class="section-title">The Head Vet Care team</h2>
                   <p> Lorem Ipsum available, but the majority have
                      suffered alteration in some form.</p>
                </div>
@@ -325,8 +339,8 @@ if (!isset($_SESSION['admin_name'])) {
                      <img src="images/team1.jpg" alt="">
                   </div>
                   <div class="team-info">
-                     <h3>Megan Fox</h3>
-                     <p>VETERINARY</p>
+                     <h3>Emma Sano</h3>
+                     <p>SENIOR VETERINARY</p>
                      <ul class="team-social">
                         <li> <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
                         <li> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
@@ -343,7 +357,7 @@ if (!isset($_SESSION['admin_name'])) {
                   </div>
                   <div class="team-info">
                      <h3>Flora Sopa</h3>
-                     <p>VETERINARY</p>
+                     <p>SENIOR VETERINARY</p>
                      <ul class="team-social">
                         <li> <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
                         <li> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
@@ -359,8 +373,8 @@ if (!isset($_SESSION['admin_name'])) {
                      <img src="images/team3.jpg" alt="">
                   </div>
                   <div class="team-info">
-                     <h3>Gal Gatot</h3>
-                     <p>VETERINARY</p>
+                     <h3>Mikasa Ackerman</h3>
+                     <p>SENIOR VETERINARY</p>
                      <ul class="team-social">
                         <li> <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
                         <li> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
@@ -415,7 +429,8 @@ if (!isset($_SESSION['admin_name'])) {
    <!--End Section	-->
 
 
-<!-- ===============    recent post   ============================= -->
+   <!-- ===============    recent post   ============================= -->
+
    <!--Start Section	-->
    <section class="blog-section">
       <div class="container">
@@ -423,9 +438,8 @@ if (!isset($_SESSION['admin_name'])) {
 
             <div class="col-md-12">
                <div class="intro-main text-center">
-                  <h2>Recent Posts</h2>
-                  <p> Lorem Ipsum available, but the majority have
-                     suffered alteration in some form.</p>
+                  <h2>Service Feedback From Clients</h2>
+                  <p> Leave a feedback how was your experience with us.</p>
                </div>
             </div>
 
@@ -435,11 +449,9 @@ if (!isset($_SESSION['admin_name'])) {
                      <img src="images/blog1.jpg" alt="">
                   </div>
                   <div class="blog-info">
-                     <h3>As a veterinarian and
-                        lover of animals</h3>
+                     <h3>Hanma Shuji Wrote</h3>
                      <span class="post-date">FEBRUARY 09, 2023</span>
-                     <p>Lorem Ipsum available, but the majo
-                        rity have suffered alteration in some words which look.</p>
+                     <p> I really liked your daycare service. My cat was safe and sound when you guys returned it to me. Its in good mood too, i guess he had some friends to play with. Looking forward to use your service again.</p>
                      <a href="" class="link-more">Read More+</a>
                   </div>
                </div>
@@ -451,11 +463,9 @@ if (!isset($_SESSION['admin_name'])) {
                      <img src="images/blog2.jpg" alt="">
                   </div>
                   <div class="blog-info">
-                     <h3>As a veterinarian and
-                        lover of animals</h3>
+                     <h3>Hanagaki Takemichi Wrote</h3>
                      <span class="post-date">FEBRUARY 09, 2023</span>
-                     <p>Lorem Ipsum available, but the majo
-                        rity have suffered alteration in some words which look.</p>
+                     <p> Thanks to your good Vet's my dog is felling better and started to play like before. He was in really bad condition when i asked advice from your doctors.But now he is all good again. Thank You.</p>
                      <a href="" class="link-more">Read More+</a>
                   </div>
                </div>
@@ -467,11 +477,9 @@ if (!isset($_SESSION['admin_name'])) {
                      <img src="images/blog3.jpg" alt="">
                   </div>
                   <div class="blog-info">
-                     <h3>As a veterinarian and
-                        lover of animals</h3>
+                     <h3>Ken Ryuguji Wrote</h3>
                      <span class="post-date">FEBRUARY 09, 2023</span>
-                     <p>Lorem Ipsum available, but the majo
-                        rity have suffered alteration in some words which look.</p>
+                     <p>My cat is got Vaccinated properly thanks to your doctors. They complete the whole things with such good care, which was really wonderful.</p>
                      <a href="" class="link-more">Read More+</a>
                   </div>
                </div>
